@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{889E2869-3775-44FC-A10A-0F0D026926B1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HorasHombre.Data</RootNamespace>
+    <AssemblyName>HorasHombre.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppProvider.cs" />
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="DataAccessBdGeneral.cs" />
+    <Compile Include="DataAccessCostos.cs" />
+    <Compile Include="DataAccessGestion.cs" />
+    <Compile Include="DataAccessKsd.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider\ActividadProvider.cs" />
+    <Compile Include="Provider\AreaProvider.cs" />
+    <Compile Include="Provider\ConceptoProvider.cs" />
+    <Compile Include="Provider\ConfiguracionProvider.cs" />
+    <Compile Include="Provider\ImportarKsdProvider.cs" />
+    <Compile Include="Provider\MenuSistemaProvider.cs" />
+    <Compile Include="Provider\NumeracionProvider.cs" />
+    <Compile Include="Provider\OrdenProduccionProvider.cs" />
+    <Compile Include="Provider\PersonaAreaProvider.cs" />
+    <Compile Include="Provider\CentroCostoProvider.cs" />
+    <Compile Include="Provider\DocumentoPersonaProvider.cs" />
+    <Compile Include="Provider\EmpresaProvider.cs" />
+    <Compile Include="Provider\ImportarCostoProvider.cs" />
+    <Compile Include="Provider\ImportarGestionProvider.cs" />
+    <Compile Include="Provider\NovedadProvider.cs" />
+    <Compile Include="Provider\PeriodoProvider.cs" />
+    <Compile Include="Provider\PersonaProvider.cs" />
+    <Compile Include="Provider\PlanillaDetalleProvider.cs" />
+    <Compile Include="Provider\PlanillaProvider.cs" />
+    <Compile Include="Provider\OrdenProduccionActividadProvider.cs" />
+    <Compile Include="Provider\SucursalProvider.cs" />
+    <Compile Include="Provider\UsuarioAreaProvider.cs" />
+    <Compile Include="Provider\UsuarioMenuProvider.cs" />
+    <Compile Include="Provider\UsuarioModuloProvider.cs" />
+    <Compile Include="Provider\UsuarioProvider.cs" />
+    <Compile Include="Provider\UsuarioSucursalProvider.cs" />
+    <Compile Include="SqlClient\SqlActividadProvider.cs" />
+    <Compile Include="SqlClient\SqlAreaProvider.cs" />
+    <Compile Include="SqlClient\SqlConceptoProvider.cs" />
+    <Compile Include="SqlClient\SqlConfiguracionProvider.cs" />
+    <Compile Include="SqlClient\SqlImportarKsdProvider.cs" />
+    <Compile Include="SqlClient\SqlMenuSistemaProvider.cs" />
+    <Compile Include="SqlClient\SqlNumeracionProvider.cs" />
+    <Compile Include="SqlClient\SqlOrdenProduccionProvider.cs" />
+    <Compile Include="SqlClient\SqlPersonaAreaProvider.cs" />
+    <Compile Include="SqlClient\SqlCentroCostoProvider.cs" />
+    <Compile Include="SqlClient\SqlDocumentoPersonaProvider.cs" />
+    <Compile Include="SqlClient\SqlEmpresaProvider.cs.cs" />
+    <Compile Include="SqlClient\SqlImportarCostoProvider.cs" />
+    <Compile Include="SqlClient\SqlImportarGestionProvider.cs" />
+    <Compile Include="SqlClient\SqlNovedadProvider.cs" />
+    <Compile Include="SqlClient\SqlPeriodoProvider.cs" />
+    <Compile Include="SqlClient\SqlPersonaProvider.cs" />
+    <Compile Include="SqlClient\SqlPlanillaDetalleProvider.cs" />
+    <Compile Include="SqlClient\SqlPlanillaProvider.cs" />
+    <Compile Include="SqlClient\SqlOrdenProduccionActividadProvider.cs" />
+    <Compile Include="SqlClient\SqlSucursalProvider.cs" />
+    <Compile Include="SqlClient\SqlUsuarioAreaProvider.cs" />
+    <Compile Include="SqlClient\SqlUsuarioMenuProvider.cs" />
+    <Compile Include="SqlClient\SqlUsuarioModuloProvider.cs" />
+    <Compile Include="SqlClient\SqlUsuarioProvider.cs" />
+    <Compile Include="SqlClient\SqlUsuarioSucursalProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HorasHombre.Model\HorasHombre.Model.csproj">
+      <Project>{ed539dda-24f9-43bb-a749-6fd32cad46d9}</Project>
+      <Name>HorasHombre.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

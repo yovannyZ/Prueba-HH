@@ -1,0 +1,12 @@
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Data\bin\Debug\HorasHombre.Data.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Data\bin\Debug\HorasHombre.Data.pdb
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Data\bin\Debug\HorasHombre.Model.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Data\obj\Debug\HorasHombre.Data.csprojResolveAssemblyReference.cache
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Data\obj\Debug\HorasHombre.Data.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Data\obj\Debug\HorasHombre.Data.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.Data\bin\Debug\HorasHombre.Data.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.Data\bin\Debug\HorasHombre.Data.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.Data\bin\Debug\HorasHombre.Model.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.Data\obj\Debug\HorasHombre.Data.csprojResolveAssemblyReference.cache
+D:\mgsoluciones\HorasHombre\HorasHombre.Data\obj\Debug\HorasHombre.Data.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.Data\obj\Debug\HorasHombre.Data.pdb

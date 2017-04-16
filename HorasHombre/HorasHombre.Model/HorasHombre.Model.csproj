@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ED539DDA-24F9-43BB-A749-6FD32CAD46D9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HorasHombre.Model</RootNamespace>
+    <AssemblyName>HorasHombre.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actividad.cs" />
+    <Compile Include="Area.cs" />
+    <Compile Include="CentroCosto.cs" />
+    <Compile Include="Concepto.cs" />
+    <Compile Include="Configuracion.cs" />
+    <Compile Include="DocumentoPersona.cs" />
+    <Compile Include="Empresa.cs" />
+    <Compile Include="EnumClass.cs" />
+    <Compile Include="MenuSistema.cs" />
+    <Compile Include="ModelBase.cs" />
+    <Compile Include="Novedad.cs" />
+    <Compile Include="Numeracion.cs" />
+    <Compile Include="OrdenProduccion.cs" />
+    <Compile Include="Periodo.cs" />
+    <Compile Include="Persona.cs" />
+    <Compile Include="PersonaArea.cs" />
+    <Compile Include="PlanillaDetalle.cs" />
+    <Compile Include="Planilla.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="OrdenProduccionActividad.cs" />
+    <Compile Include="Sucursal.cs" />
+    <Compile Include="TitleAttribute.cs" />
+    <Compile Include="Usuario.cs" />
+    <Compile Include="UsuarioArea.cs" />
+    <Compile Include="UsuarioMenu.cs" />
+    <Compile Include="UsuarioModulo.cs" />
+    <Compile Include="UsuarioSucursal.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

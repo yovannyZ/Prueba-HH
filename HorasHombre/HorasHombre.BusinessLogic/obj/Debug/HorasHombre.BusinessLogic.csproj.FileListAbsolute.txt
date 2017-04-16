@@ -1,0 +1,16 @@
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.BusinessLogic.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.BusinessLogic.pdb
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.Data.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.Model.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.Data.pdb
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\obj\Debug\HorasHombre.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\obj\Debug\HorasHombre.BusinessLogic.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.BusinessLogic\obj\Debug\HorasHombre.BusinessLogic.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.BusinessLogic.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.BusinessLogic.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.Data.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.Model.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\bin\Debug\HorasHombre.Data.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\obj\Debug\HorasHombre.BusinessLogic.csprojResolveAssemblyReference.cache
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\obj\Debug\HorasHombre.BusinessLogic.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.BusinessLogic\obj\Debug\HorasHombre.BusinessLogic.pdb

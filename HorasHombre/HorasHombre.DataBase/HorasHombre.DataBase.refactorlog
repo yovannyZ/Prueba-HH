@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="70c39c55-5bfe-4303-be54-b12215b01dd3" ChangeDateTime="02/23/2015 15:26:12">
+    <Property Name="ElementName" Value="[dbo].[PlanillaDetalle].[NuMinutos]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlanillaDetalle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TmInicio" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="40c36fc8-b7cd-4ddc-97d0-c5471de9f8ad" ChangeDateTime="02/23/2015 15:36:25">
+    <Property Name="ElementName" Value="[dbo].[PlanillaDetalle].[TmInicio]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlanillaDetalle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FeInicio" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="800b14fc-9bfb-45e9-bb8d-5cfadcffa41a" ChangeDateTime="02/23/2015 15:36:34">
+    <Property Name="ElementName" Value="[dbo].[PlanillaDetalle].[TmFin]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PlanillaDetalle]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FeFin" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="816f3afd-b46a-4de7-a5a8-81462d13ac95" ChangeDateTime="02/27/2015 05:41:22">
+    <Property Name="ElementName" Value="[dbo].[UsuarioMenu].[FlMostrarEliminados]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsuarioMenu]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FlVerEliminados" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2600cd2-3038-44b9-b01b-e77f788284da" ChangeDateTime="02/27/2015 05:49:48">
+    <Property Name="ElementName" Value="[dbo].[UsuarioMenu].[FlVerEliminados]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsuarioMenu]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FlVerEliminado" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87c64ac7-fa07-4f7a-a133-5757c695637d" ChangeDateTime="02/27/2015 05:50:33">
+    <Property Name="ElementName" Value="[dbo].[UsuarioMenu].[FlVerEliminado]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UsuarioMenu]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FlVer" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f2930335-97f0-4aa2-a990-ce06893011a7" ChangeDateTime="03/13/2015 15:31:54">
+    <Property Name="ElementName" Value="[dbo].[Configuracion].[NuNivel]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Configuracion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FlActivo" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb7fdeb1-bfaa-419e-b537-7bf357b9b405" ChangeDateTime="03/13/2015 20:07:33">
+    <Property Name="ElementName" Value="[dbo].[Configuracion].[Codigo]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Configuracion]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CoConfiguracion" />
+  </Operation>
+</Operations>

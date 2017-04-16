@@ -1,0 +1,5 @@
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Model\bin\Debug\HorasHombre.Model.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.Model\obj\Debug\HorasHombre.Model.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.Model\bin\Debug\HorasHombre.Model.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.Model\obj\Debug\HorasHombre.Model.csprojResolveAssemblyReference.cache
+D:\mgsoluciones\HorasHombre\HorasHombre.Model\obj\Debug\HorasHombre.Model.dll

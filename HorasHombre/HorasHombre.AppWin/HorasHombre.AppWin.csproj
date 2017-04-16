@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7B55171-1554-43AF-95E5-0E9240DC0902}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HorasHombre.AppWin</RootNamespace>
+    <AssemblyName>SIHO</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Task.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExpandableGridView">
+      <HintPath>ExternalReferences\ExpandableGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="ExtControls, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExternalReferences\ExtControls.dll</HintPath>
+    </Reference>
+    <Reference Include="HerenciaVisual, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExternalReferences\HerenciaVisual.dll</HintPath>
+    </Reference>
+    <Reference Include="MakarovDev.ExpandCollapsePanel, Version=1.0.5304.26880, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExternalReferences\MakarovDev.ExpandCollapsePanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Windows\assembly\GAC_MSIL\Microsoft.ReportViewer.WinForms\11.0.0.0__89845dcd8080cc91\Microsoft.ReportViewer.WinForms.DLL</HintPath>
+    </Reference>
+    <Reference Include="ObjectListView, Version=2.8.0.29956, Culture=neutral, PublicKeyToken=b1c5bf581481bcd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExternalReferences\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="SergeUtils">
+      <HintPath>..\..\ActivoFijo\ActivoFijo.AppWin\ExternalReferences\SergeUtils.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helpers\AppInfo.cs" />
+    <Compile Include="Helpers\EnumClass.cs" />
+    <Compile Include="Helpers\ErrorHandler.cs" />
+    <Compile Include="Helpers\GenericUtil.cs" />
+    <Compile Include="Helpers\Permiso.cs" />
+    <Compile Include="Helpers\ReflectionUtil.cs" />
+    <Compile Include="Helpers\UserLog.cs" />
+    <Compile Include="Inicios\Acerca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicios\Acerca.Designer.cs">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicios\frmAdministracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicios\frmAdministracion.Designer.cs">
+      <DependentUpon>frmAdministracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicios\frmHorasHombre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicios\frmHorasHombre.Designer.cs">
+      <DependentUpon>frmHorasHombre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicios\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicios\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicios\frmPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicios\frmPanel.Designer.cs">
+      <DependentUpon>frmPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presenters\ActividadEditor.cs" />
+    <Compile Include="Presenters\AreaEditor.cs" />
+    <Compile Include="Presenters\CentroCostoEditor.cs" />
+    <Compile Include="Presenters\ConceptoEditor.cs" />
+    <Compile Include="Presenters\ConfiguracionEditor.cs" />
+    <Compile Include="Presenters\DataSourceContainer.cs" />
+    <Compile Include="Presenters\DocumentoPersonaEditor.cs" />
+    <Compile Include="Presenters\EmpresaEditor.cs" />
+    <Compile Include="Presenters\IMethodProvider.cs" />
+    <Compile Include="Presenters\ImportarEditor.cs" />
+    <Compile Include="Presenters\LoginEditor.cs" />
+    <Compile Include="Presenters\MenuSistemaEditor.cs" />
+    <Compile Include="Presenters\NovedadEditor.cs" />
+    <Compile Include="Presenters\NumeracionEditor.cs" />
+    <Compile Include="Presenters\OrdenProduccionEditor.cs" />
+    <Compile Include="Presenters\PeriodoEditor.cs" />
+    <Compile Include="Presenters\PersonaAreaEditor.cs" />
+    <Compile Include="Presenters\PersonaEditor.cs" />
+    <Compile Include="Presenters\OrdenProduccionActividadEditor.cs" />
+    <Compile Include="Presenters\PlanillaEditor.cs" />
+    <Compile Include="Presenters\ReportePlanillaEditor.cs" />
+    <Compile Include="Presenters\SucursalEditor.cs" />
+    <Compile Include="Presenters\UserLogEditor.cs" />
+    <Compile Include="Presenters\UsuarioEditor.cs" />
+    <Compile Include="Presenters\AccesoUsuarioEditor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Forms\frmReportePlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\Forms\frmReportePlanilla.Designer.cs">
+      <DependentUpon>frmReportePlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmActividad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmActividad.Designer.cs">
+      <DependentUpon>frmActividad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmArea.Designer.cs">
+      <DependentUpon>frmArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmCentroCosto.Designer.cs">
+      <DependentUpon>frmCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmConcepto.Designer.cs">
+      <DependentUpon>frmConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmConfiguracion.Designer.cs">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmImportarDatos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmImportarDatos.Designer.cs">
+      <DependentUpon>frmImportarDatos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmMenuSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmMenuSistema.Designer.cs">
+      <DependentUpon>frmMenuSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmAccesoUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmAccesoUsuario.Designer.cs">
+      <DependentUpon>frmAccesoUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmNovedad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmNovedad.Designer.cs">
+      <DependentUpon>frmNovedad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmNumeracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmNumeracion.Designer.cs">
+      <DependentUpon>frmNumeracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmPeriodo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmPeriodo.Designer.cs">
+      <DependentUpon>frmPeriodo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmPersona.Designer.cs">
+      <DependentUpon>frmPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmPersonaArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmPersonaArea.Designer.cs">
+      <DependentUpon>frmPersonaArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmUserLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmUserLog.Designer.cs">
+      <DependentUpon>frmUserLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HorasHombre\frmOrdenProduccionActividad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HorasHombre\frmOrdenProduccionActividad.Designer.cs">
+      <DependentUpon>frmOrdenProduccionActividad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Administracion\frmSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Administracion\frmSucursal.Designer.cs">
+      <DependentUpon>frmSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HorasHombre\frmPlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HorasHombre\frmPlanilla.Designer.cs">
+      <DependentUpon>frmPlanilla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\QueryForms\frmConsultaPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\QueryForms\frmConsultaPersona.Designer.cs">
+      <DependentUpon>frmConsultaPersona.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Inicios\Acerca.resx">
+      <DependentUpon>Acerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicios\frmAdministracion.resx">
+      <DependentUpon>frmAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicios\frmHorasHombre.resx">
+      <DependentUpon>frmHorasHombre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicios\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicios\frmPanel.resx">
+      <DependentUpon>frmPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Forms\frmReportePlanilla.resx">
+      <DependentUpon>frmReportePlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportViewers\rptPlanillaResumen.rdlc" />
+    <EmbeddedResource Include="Reports\ReportViewers\rptPlanillaHoras.rdlc" />
+    <EmbeddedResource Include="Views\Administracion\frmActividad.resx">
+      <DependentUpon>frmActividad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmArea.resx">
+      <DependentUpon>frmArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmCentroCosto.resx">
+      <DependentUpon>frmCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmConcepto.resx">
+      <DependentUpon>frmConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmConfiguracion.resx">
+      <DependentUpon>frmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmImportarDatos.resx">
+      <DependentUpon>frmImportarDatos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmMenuSistema.resx">
+      <DependentUpon>frmMenuSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmNovedad.resx">
+      <DependentUpon>frmNovedad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmNumeracion.resx">
+      <DependentUpon>frmNumeracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmPeriodo.resx">
+      <DependentUpon>frmPeriodo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmPersona.resx">
+      <DependentUpon>frmPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmPersonaArea.resx">
+      <DependentUpon>frmPersonaArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmAccesoUsuario.resx">
+      <DependentUpon>frmAccesoUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmUserLog.resx">
+      <DependentUpon>frmUserLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HorasHombre\frmOrdenProduccionActividad.resx">
+      <DependentUpon>frmOrdenProduccionActividad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Administracion\frmSucursal.resx">
+      <DependentUpon>frmSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HorasHombre\frmPlanilla.resx">
+      <DependentUpon>frmPlanilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\QueryForms\frmConsultaPersona.resx">
+      <DependentUpon>frmConsultaPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\HorasHombre.Model.Planilla.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HorasHombre.BusinessLogic\HorasHombre.BusinessLogic.csproj">
+      <Project>{01ccd011-6ac8-4242-b43a-b4402ede09f6}</Project>
+      <Name>HorasHombre.BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HorasHombre.Model\HorasHombre.Model.csproj">
+      <Project>{ed539dda-24f9-43bb-a749-6fd32cad46d9}</Project>
+      <Name>HorasHombre.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ExternalReferences\ExtControls.dll" />
+    <Content Include="ExternalReferences\HerenciaVisual.dll" />
+    <Content Include="ExternalReferences\MakarovDev.ExpandCollapsePanel.dll" />
+    <None Include="Resources\Questionnaire 3d.png" />
+    <None Include="Resources\login.jpg" />
+    <None Include="Resources\login.png" />
+    <None Include="Resources\fondoLogin.jpg" />
+    <None Include="Resources\Config.png" />
+    <None Include="Resources\EventView.png" />
+    <None Include="Resources\Report.png" />
+    <None Include="Resources\Report1.png" />
+    <None Include="Resources\Task.png" />
+    <None Include="Resources\Counter.png" />
+    <None Include="Resources\Counter1.png" />
+    <None Include="Resources\Number.png" />
+    <None Include="Resources\Genealogy.png" />
+    <None Include="Resources\Genealogy1.png" />
+    <None Include="Resources\Number1.png" />
+    <None Include="Resources\Structure20x20.png" />
+    <None Include="Resources\Calendar16x16.png" />
+    <None Include="Resources\Calendar20x20.png" />
+    <None Include="Resources\People16x16.png" />
+    <None Include="Resources\Credit_Card.ico" />
+    <None Include="Resources\group_key20x20.png" />
+    <None Include="Resources\group_key.png" />
+    <Content Include="ExternalReferences\ObjectListView.dll" />
+    <Content Include="Task.ico" />
+    <None Include="Resources\Delete.png" />
+    <None Include="Resources\Structure.png" />
+    <None Include="Resources\List.png" />
+    <None Include="Resources\PeriodEnd.png" />
+    <None Include="Resources\Transfer.png" />
+    <None Include="Resources\CaseHistory.png" />
+    <None Include="Resources\People.png" />
+    <None Include="Resources\trabajo.jpg" />
+    <None Include="Resources\administracion.jpg" />
+    <None Include="Resources\administracion1.png" />
+    <None Include="Resources\administracion.png" />
+    <None Include="Resources\fondo.JPG" />
+    <None Include="Resources\Home.png" />
+    <None Include="Resources\User.png" />
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

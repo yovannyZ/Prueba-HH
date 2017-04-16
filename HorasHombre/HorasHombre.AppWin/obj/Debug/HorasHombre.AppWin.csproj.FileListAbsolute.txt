@@ -1,0 +1,89 @@
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.csprojResolveAssemblyReference.cache
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.Acerca.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmAdministracion.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmHorasHombre.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmLogin.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmPanel.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Properties.Resources.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Reports.Forms.frmReportePlanilla.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmActividad.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmArea.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmCentroCosto.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmConcepto.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmConfiguracion.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmImportarDatos.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmMenuSistema.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmNovedad.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmNumeracion.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmPeriodo.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmPersona.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmPersonaArea.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmAccesoUsuario.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmUserLog.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.HorasHombre.frmOrdenProduccionActividad.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmSucursal.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.HorasHombre.frmPlanilla.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.QueryForms.frmConsultaPersona.resources
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.csproj.GenerateResource.Cache
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\RdlCompile.cache
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\RdlCompile.compiled
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\SIHO.exe.config
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\SIHO.exe
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\SIHO.pdb
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\ExpandableGridView.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\ExtControls.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\HerenciaVisual.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.BusinessLogic.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.Model.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\ObjectListView.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\SergeUtils.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.Data.dll
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.BusinessLogic.pdb
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.Data.pdb
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\SIHO.exe
+D:\Nuevos Proyectos\HorasHombre\HorasHombre.AppWin\obj\Debug\SIHO.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\SIHO.exe.config
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\SIHO.exe
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\SIHO.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\SIHO.exe
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\SIHO.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\ExpandableGridView.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\ExtControls.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\HerenciaVisual.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.BusinessLogic.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.Model.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\ObjectListView.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.Data.dll
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.BusinessLogic.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\bin\Debug\HorasHombre.Data.pdb
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.csprojResolveAssemblyReference.cache
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.Acerca.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmAdministracion.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmHorasHombre.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmLogin.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Inicios.frmPanel.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Properties.Resources.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Reports.Forms.frmReportePlanilla.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmActividad.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmArea.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmCentroCosto.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmConcepto.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmConfiguracion.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmImportarDatos.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmMenuSistema.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmNovedad.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmNumeracion.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmPeriodo.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmPersona.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmPersonaArea.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmAccesoUsuario.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmUserLog.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.HorasHombre.frmOrdenProduccionActividad.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.Administracion.frmSucursal.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.HorasHombre.frmPlanilla.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.Views.QueryForms.frmConsultaPersona.resources
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\HorasHombre.AppWin.csproj.GenerateResource.Cache
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\RdlCompile.cache
+D:\mgsoluciones\HorasHombre\HorasHombre.AppWin\obj\Debug\RdlCompile.compiled
